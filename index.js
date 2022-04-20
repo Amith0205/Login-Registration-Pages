@@ -101,7 +101,7 @@ app.post("/login",function(req,res)
   });
 });
 
-app.listen(3000,function(err){
+app.listen(process.env.PORT || 3000,function(err){
   if(!err){
     console.log("server is up and running");
   }
