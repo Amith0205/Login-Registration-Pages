@@ -1,0 +1,21 @@
+{
+  "name": "oyester",
+  "version": "1.0.0",
+  "description": "Basic login/registration page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amith Harish",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.3.0",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^7.0.0"
+  }
+}
