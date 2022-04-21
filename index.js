@@ -22,7 +22,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect("mongodb://localhost:27017/oyester_usersDB");
+mongoose.connect("mongodb+srv://admin_amith:test123@cluster0.84iyn.mongodb.net/oyester_usersDB");
 const userSchema=new mongoose.Schema({
   email:String,
   password:String
